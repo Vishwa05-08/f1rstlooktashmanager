@@ -5,6 +5,4 @@ services:
     plan: free
     buildCommand: "./mvnw clean package -DskipTests"
     startCommand: "java -jar target/*.jar"
-    envVars:
-      - key: SPRING_PROFILES_ACTIVE
-        value: prod
+
